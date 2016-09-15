@@ -16,7 +16,7 @@ class ZooItemsHelper {
 	
 	// constructor
 	public function __construct() {
-		
+
 		// load config
 		require_once(JPATH_ADMINISTRATOR.'/components/com_zoo/config.php');
 		
@@ -37,7 +37,8 @@ class ZooItemsHelper {
 		
 		if ($application = $this->app->table->application->get($params->get('application', 0))) {
 
-			$zooitems = (array)$params->get('zooitems');			
+			$zooitems = (array)$params->get('zooitems');
+
 			if($zooitems[0] == ''){
 				array_shift( $zooitems ); 
 			}

@@ -11,7 +11,7 @@
 	<version>1.0.0</version>
 	<description>Multiple ZOO Items module</description>
 	<files>
-		<filename module="mod_zooitems">mod_zooitems.php</filename> 
+		<filename module="mod_zooitems">mod_zooitems.php</filename>
 		<filename>file.script.php</filename>		
 		<filename>helper.php</filename>		
 		<folder>assets</folder>
