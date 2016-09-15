@@ -20,10 +20,11 @@ $css_class = $application->getGroup().'-'.$application->getTemplate()->name;
 
 // get item categories for filtering
 foreach($items as $item){
-	$cats[$zoo-> table -> category -> getById($item -> params['config.primary_category'], true)[0] -> id] = [
-		'id'=> $zoo-> table -> category -> getById($item -> params['config.primary_category'], true)[0] -> id,
-		'name'=> $zoo-> table -> category -> getById($item -> params['config.primary_category'], true)[0] -> name,
-		'alias' => $zoo-> table -> category -> getById($item -> params['config.primary_category'], true)[0] -> alias
+    $prime_cat = $zoo-> table -> category -> getById($item -> params['config.primary_category'], true)[0];
+	$cats[$prime_cat -> id] = [
+		'id'    => $prime_cat -> id,
+		'name'  => $prime_cat -> name,
+		'alias' => $prime_cat -> alias
 	];	
 }
 $grid_columns = $params['grid_columns'];
@@ -40,7 +41,7 @@ if (!empty($items)) : ?>
 
 <div class="zoo-item-grid uk-items-grid <?php echo $css_class ?>">
 	<div data-uk-grid="{gutter: 20, controls: '#filter'}">
-		<?php $i = 0; foreach ($items as $item) : 	$data_uk_filter = $zoo-> table -> category -> getById($item -> params['config.primary_category'], true)[0] -> alias; ?>
+		<?php $i = 0; foreach ($items as $item) : $data_uk_filter = $zoo-> table -> category -> getById($item -> params['config.primary_category'], true)[0] -> alias; ?>
 				<?php echo $renderer->render('item.'.$layout, compact('item', 'params','data_uk_filter', 'grid_columns')); ?>
 		<?php $i++; endforeach; ; ?>
 	</div>
