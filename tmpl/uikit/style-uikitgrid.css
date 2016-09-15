@@ -1,0 +1,9 @@
+/* http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only */
+
+/* Position: Title */
+.zoo-item-grid p.title { 
+	margin: 10px 0 10px 0; 
+}
+.zoo-item-grid p.title a {
+  	font-size: 16px;
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5" method="upgrade" client="site">
+	<name>ZOO Items - Multiple Choice </name>
+	<author>brbaso</author>
+	<creationDate>August 2016</creationDate>
+	<copyright></copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only</license>
+	<assetsLicense></assetsLicense>
+	<authorEmail>brbaso@gmail.com</authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.0.0</version>
+	<description>Multiple Items module for ZOO</description>
+	<files>
+		<filename module="mod_zooitems">mod_zooitems.php</filename>
+		<filename>file.script.php</filename>		
+		<filename>helper.php</filename>		
+		<folder>fields</folder>
+		<folder>renderer</folder>
+		<folder>tmpl</folder>
+	</files>
+	<scriptfile>file.script.php</scriptfile>
+	<config>
+		<fields name="params" >
+			<fieldset name="basic" addfieldpath="/modules/mod_zooitems/fields">
+				<field name="theme" type="filename" default="" label="Theme" description="Visual style" path="/tmpl/" />
+				<field name="layout" type="filename" default="" label="Layout" description="The Item Layout" path="/renderer/item/" />
+				<field name="grid_columns" type="list" default="3" label="Grid Columns" description="Numbebr of Grid columns to show. This applies to Uikit Grid options above. Default: 3">
+					<option value="1">One</option>					
+					<option value="2">Two</option>					
+					<option value="3">Three</option>					
+					<option value="4">Four</option>					
+				</field>
+				<field name="media_position" type="list" default="left" label="Media Position" description="Choose Media Position - this doesn't apply to Uikit Grid options above">
+					<option value="left">Left</option>
+					<option value="right">Right</option>
+					<option value="top">Top</option>
+					<option value="middle">Middle</option>
+					<option value="bottom">Bottom</option>
+					<option value="cross_first_left">Cross - first left</option>
+					<option value="cross_first_right">Cross - first right</option>
+				</field>				
+				<field name="application" type="zooapplication" default="" label="Application" description="Choose Application to display its items" categories="true" frontpage="true" items="true" types="true" />				
+				<field name="zootypes" type="list" default="" label="Select an option" description="Select an option to choose Items by Categories or by Types" class="choose_by" >
+					<option value="">Please Select</option>
+					<option value="bycats">Categories</option>
+					<option value="bytypes">Types</option>
+				</field>	
+				<field name="zoocategories" type="zoocategories" default="" label="Select an option" description="Select an option to get Items. Depending on previous field choice it is either Categories or Types." class="choose_categories"/>				
+				<field name="zooitems" type="zooitems" default="" label="Choose Items" description="Choose Items" class="choose_items"/>	
+				<field name="order" type="zooitemorder" default="_itemname" label="Item Order" description="Items Order" apps="true" random="true" />
+				<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="Add module class suffix for additional styling" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
