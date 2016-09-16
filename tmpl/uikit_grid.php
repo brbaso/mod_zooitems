@@ -31,5 +31,5 @@ if (!empty($items)) : ?>
 </div>
 </div>
 <?php else : ?>
-<?php echo JText::_('No Items found'); ?>
+<?php echo JText::_('MOD_ZOOITEMS_NOITEMSFOUND'); ?>
 <?php endif;
