@@ -35,7 +35,7 @@ $html[] = '<div id="item-order" class="zoo-itemorder">';
 
 		// add core elements
 		$core = $this->app->object->create('Type', array('_core', $application));
-		$core->name = JText::_('Core');
+		$core->name = JText::_('MOD_ZOOITEMS_CORE');
 		array_unshift($types, $core);
 
 		$html[] = '<div class="app '.$application->id.'">';
@@ -47,7 +47,7 @@ $html[] = '<div id="item-order" class="zoo-itemorder">';
 					$options = array();
 				} else {
 					$elements = $type->getElements();
-					$options = array($this->app->html->_('select.option', false, '- '.JText::_('Select Element').' -'));
+					$options = array($this->app->html->_('select.option', false, '- '.JText::_('MOD_ZOOITEMS_SELECTELEM').' -'));
 				}
 
 				// filter orderable elements
@@ -61,7 +61,7 @@ $html[] = '<div id="item-order" class="zoo-itemorder">';
 					$options[] = $this->app->html->_('select.option', $element->identifier, ($element->config->name ? $element->config->name : $element->getMetaData('name')));
 				}
 				if ($type->identifier == '_core' && ($node->attributes('add_default') || @$node->attributes()->add_default)) {
-					array_unshift($options, $this->app->html->_('select.option', '', JText::_('default')));
+					array_unshift($options, $this->app->html->_('select.option', '', JText::_('MOD_ZOOITEMS_DEFAULT')));
 				}
 
 				$id = $control_name.$name.$application->id.$type->identifier;
@@ -85,28 +85,28 @@ $html[] = '<div id="item-order" class="zoo-itemorder">';
 	$html[] = '<div>';
 		$id = "{$control_name}[{$name}][_reversed]";
 		$html[] = "<input type=\"checkbox\" id=\"{$id}\" name=\"{$control_name}[{$name}][]\"" . (in_array('_reversed', $item_order) ? 'checked="checked"' : '') . ' value="_reversed" />';
-		$html[] = '<label for="'.$id.'">' . JText::_('Reverse') . '</label>';
+		$html[] = '<label for="'.$id.'">' . JText::_('MOD_ZOOITEMS_REVERSE_LBL') . '</label>';
 	$html[] = '</div>';
 
 	if ($node->attributes('random') || @$node->attributes()->random) {
 		$html[] = '<div>';
 			$id = "{$control_name}[{$name}][_random]";
 			$html[] = "<input type=\"checkbox\" id=\"{$id}\" name=\"{$control_name}[{$name}][]\"" . (in_array('_random', $item_order) ? 'checked="checked"' : '') . ' value="_random" />';
-			$html[] = '<label for="'.$id.'">' . JText::_('Random') . '</label>';
+			$html[] = '<label for="'.$id.'">' . JText::_('MOD_ZOOITEMS_RANDOM_LBL') . '</label>';
 		$html[] = '</div>';
 	}
 
 	$html[] = '<div>';
 		$id = "{$control_name}[{$name}][_alphanumeric]";
 		$html[] = "<input type=\"checkbox\" id=\"{$id}\" name=\"{$control_name}[{$name}][]\"" . (in_array('_alphanumeric', $item_order) ? 'checked="checked"' : '') . ' value="_alphanumeric" />';
-		$html[] = '<label for="'.$id.'">' . JText::_('Alphanumeric sorting') . '</label>';
+		$html[] = '<label for="'.$id.'">' . JText::_('MOD_ZOOITEMS_ALPHANUM_LBL') . '</label>';
 	$html[] = '</div>';
 	
 	// ignore items priority settings - com_zoo
 	$html[] = '<div>';
 		$id = "{$control_name}[{$name}][_ignore_priority]";
 		$html[] = "<input type=\"checkbox\" id=\"{$id}\" name=\"{$control_name}[{$name}][]\"" . (in_array('_ignore_priority', $item_order) ? 'checked="checked"' : '') . ' value="_ignore_priority" />';
-		$html[] = '<label for="'.$id.'">' . JText::_('Ignore Items Priority Settings') . '</label>';
+		$html[] = '<label for="'.$id.'">' . JText::_('MOD_ZOOITEMS_IGNOREPRIOR_LBL') . '</label>';
 	$html[] = '</div>';
 
 $html[] = '</div>';

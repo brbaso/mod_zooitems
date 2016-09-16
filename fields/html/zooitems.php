@@ -50,7 +50,7 @@ if(!$itms[0] & !$cats[0]){
 	}
 }
 $html[] = '<div id="'.$name.'" class="zoo-application">';
-$html[] = '<span class="zoo-application-text">'.JText::_('Please Select Items').'</span>';
+$html[] = '<span class="zoo-application-text">'.JText::_('MOD_ZOOITEMS_PLEASESELECT_ITEMS').'</span>';
 $html[] = $this->app->html->_('select.genericlist', $options, $control_name.'['.$name.'][]', 'class="choose_items"  multiple', 'value', 'text', $value);
 $html[] = '</div>';
 
