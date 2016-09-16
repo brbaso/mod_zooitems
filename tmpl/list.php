@@ -21,5 +21,5 @@ if (!empty($items)) : ?>
 	<?php $i++; endforeach; ?>
 </ul>
 <?php else : ?>
-<?php echo JText::_('No Items found'); ?>
+<?php echo JText::_('MOD_ZOOITEMS_NOITEMSFOUND'); ?>
 <?php endif;
