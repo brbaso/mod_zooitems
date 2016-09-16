@@ -9,7 +9,7 @@
 	<authorEmail>brbaso@gmail.com</authorEmail>
 	<authorUrl></authorUrl>
 	<version>1.0.0</version>
-	<description>Multiple ZOO Items module</description>
+	<description>MOD_ZOOITEMS_DESC</description>
 	<files>
 		<filename module="mod_zooitems">mod_zooitems.php</filename>
 		<filename>file.script.php</filename>		
@@ -20,12 +20,16 @@
 		<folder>tmpl</folder>
 	</files>
 	<scriptfile>file.script.php</scriptfile>
+    <languages>
+        <language tag="en-GB">language/en-GB/en-GB.mod_zooitems.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.mod_zooitems.sys.ini</language>
+    </languages>
 	<config>
 		<fields name="params" >
 			<fieldset name="basic" addfieldpath="/modules/mod_zooitems/fields">
 				<field name="theme" type="filename" default="" label="Theme" description="Visual style" path="/tmpl/" />
 				<field name="layout" type="filename" default="" label="Layout" description="The Item Layout" path="/renderer/item/" />
-				<field name="grid_columns" type="list" default="3" label="Grid Columns" description="Number of Grid columns to show. This applies to Uikit Grid options above. Default: 3">
+				<field name="grid_columns" type="list" default="3" label="Grid Columns" description= "MOD_ZOOITEMS_GRIDCOLUMNS" >
 					<option value="1">One</option>					
 					<option value="2">Two</option>					
 					<option value="3">Three</option>					
@@ -49,7 +53,7 @@
 				<field name="zoocategories" type="zoocategories" default="" label="Select an option" description="Select an option to get Items. Depending on previous field choice it is either Categories or Types." class="choose_categories"/>				
 				<field name="zooitems" type="zooitems" default="" label="Choose Items" description="Choose Items" class="choose_items"/>	
 				<field name="order" type="zooitemorder" default="_itemname" label="Item Order" description="Items Order" apps="true" random="true" />
-				<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="Add module class suffix for additional styling" />
+				<field name="moduleclass_sfx" type="text" default="" label="MOD_ZOOITEMS_MODULESFFX_LBL" description="MOD_ZOOITEMS_MODULESFFX_DESC" />
 			</fieldset>
 		</fields>
 	</config>
