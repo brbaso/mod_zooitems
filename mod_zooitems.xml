@@ -27,32 +27,32 @@
 	<config>
 		<fields name="params" >
 			<fieldset name="basic" addfieldpath="/modules/mod_zooitems/fields">
-				<field name="theme" type="filename" default="" label="Theme" description="Visual style" path="/tmpl/" />
-				<field name="layout" type="filename" default="" label="Layout" description="The Item Layout" path="/renderer/item/" />
-				<field name="grid_columns" type="list" default="3" label="Grid Columns" description= "MOD_ZOOITEMS_GRIDCOLUMNS" >
-					<option value="1">One</option>					
-					<option value="2">Two</option>					
-					<option value="3">Three</option>					
-					<option value="4">Four</option>					
+				<field name="theme" type="filename" default="" label="MOD_ZOOITEMS_THEME_LBL" description="MOD_ZOOITEMS_THEME_DESC" path="/tmpl/" />
+				<field name="layout" type="filename" default="" label="MOD_ZOOITEMS_LAYOUT_LBL" description="MOD_ZOOITEMS_LAYOUT_DESC" path="/renderer/item/" />
+				<field name="grid_columns" type="list" default="3" label="MOD_ZOOITEMS_GRIDCOLUMNS_LBL" description= "MOD_ZOOITEMS_GRIDCOLUMNS_DESC" >
+					<option value="1">MOD_ZOOITEMS_ONE</option>
+					<option value="2">MOD_ZOOITEMS_TWO</option>
+					<option value="3">MOD_ZOOITEMS_THREE</option>
+					<option value="4">MOD_ZOOITEMS_FOUR</option>
 				</field>
-				<field name="media_position" type="list" default="left" label="Media Position" description="Choose Media Position - this doesn't apply to Uikit Grid options above">
-					<option value="left">Left</option>
-					<option value="right">Right</option>
-					<option value="top">Top</option>
-					<option value="middle">Middle</option>
-					<option value="bottom">Bottom</option>
-					<option value="cross_first_left">Cross - first left</option>
-					<option value="cross_first_right">Cross - first right</option>
+				<field name="media_position" type="list" default="left" label="MOD_ZOOITEMS_MEDIAP_LBL" description="MOD_ZOOITEMS_MEDIAP_DESC">
+					<option value="left">MOD_ZOOITEMS_LEFT</option>
+					<option value="right">MOD_ZOOITEMS_RIGHT</option>
+					<option value="top">MOD_ZOOITEMS_TOP</option>
+					<option value="middle">MOD_ZOOITEMS_MIDDLE</option>
+					<option value="bottom">MOD_ZOOITEMS_BOTTOM</option>
+					<option value="cross_first_left">MOD_ZOOITEMS_CFLEFT</option>
+					<option value="cross_first_right">MOD_ZOOITEMS_CHRIGHT</option>
 				</field>				
-				<field name="application" type="zooapplication" default="" label="Application" description="Choose Application to display its items" categories="true" frontpage="true" items="true" types="true" />				
-				<field name="zootypes" type="list" default="" label="Select an option" description="Select an option to choose Items by Categories or by Types" class="choose_by" >
-					<option value="">Please Select</option>
-					<option value="bycats">Categories</option>
-					<option value="bytypes">Types</option>
+				<field name="application" type="zooapplication" default="" label="MOD_ZOOITEMS_APPLICATION_LBL" description="MOD_ZOOITEMS_APPLICATION_DESC" categories="true" frontpage="true" items="true" types="true" />
+				<field name="zootypes" type="list" default="" label="MOD_ZOOITEMS_ITEMTYPESELECT_LBL" description="MOD_ZOOITEMS_ITEMTYPESELECT_DESC" class="choose_by" >
+					<option value="">MOD_ZOOITEMS_PLEASESELECT</option>
+					<option value="bycats">MOD_ZOOITEMS_PLEASESELECT_CAT</option>
+					<option value="bytypes">MOD_ZOOITEMS_PLEASESELECT_TYPE</option>
 				</field>	
-				<field name="zoocategories" type="zoocategories" default="" label="Select an option" description="Select an option to get Items. Depending on previous field choice it is either Categories or Types." class="choose_categories"/>				
-				<field name="zooitems" type="zooitems" default="" label="Choose Items" description="Choose Items" class="choose_items"/>	
-				<field name="order" type="zooitemorder" default="_itemname" label="Item Order" description="Items Order" apps="true" random="true" />
+				<field name="zoocategories" type="zoocategories" default="" label="MOD_ZOOITEMS_SELECTCTOPT_LBL" description="MOD_ZOOITEMS_SELECTCTOPT_DESC" class="choose_categories"/>
+				<field name="zooitems" type="zooitems" default="" label="MOD_ZOOITEMS_CHOOSEITEMS_LBL" description="MOD_ZOOITEMS_CHOOSEITEMS_DESC" class="choose_items"/>
+				<field name="order" type="zooitemorder" default="_itemname" label="MOD_ZOOITEMS_ITEMORDER_LBL" description="MOD_ZOOITEMS_ITEMORDER_DESC" apps="true" random="true" />
 				<field name="moduleclass_sfx" type="text" default="" label="MOD_ZOOITEMS_MODULESFFX_LBL" description="MOD_ZOOITEMS_MODULESFFX_DESC" />
 			</fieldset>
 		</fields>
