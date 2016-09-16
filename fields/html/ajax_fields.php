@@ -9,8 +9,10 @@
  // no direct access 
 define( '_JEXEC', 1 );
 
+// get joomla root
 $jpath_root = $_POST['jpath_root'];
 
+//load Joomla
 define( 'JPATH_BASE', $jpath_root );
 require_once ( JPATH_BASE .'/includes/defines.php' );
 require_once ( JPATH_BASE .'/includes/framework.php' );
@@ -20,12 +22,15 @@ jimport( 'joomla.filter.filteroutput' );
 
 $japp = JFactory::getApplication('site');
 
+
+// load ZOO
 require_once ( JPATH_ADMINISTRATOR.'/components/com_zoo/config.php' );
 $zoo = App::getInstance('zoo');
 
 $switch_case = $_POST['switch_case'];
 $app_id = $_POST['app_id'];
 
+// switch case
 switch($switch_case) {	
 	case 'bycats':
 		$opts = array($zoo->html->_('select.option', '', ''));
@@ -54,7 +59,9 @@ switch($switch_case) {
 		echo json_encode(implode("\n", $types));		
 	break;	
 	
-	case 'items':		
+	case 'items':
+
+        // selected categories
 		$scats = $_POST['scats'];
 		$choose_by = $_POST['choose_by'];
 		
@@ -63,7 +70,9 @@ switch($switch_case) {
 		}				
 		if(!$scats){
 			$scats = 0;
-		}		
+		}
+
+        // selected items
 		$sitms = $_POST['sitms'];
 		
 		if($sitms[0] == '' & count($sitms) != 1){
