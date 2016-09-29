@@ -1,9 +1,9 @@
 <?php
 /**
- * @package   ZOO Item
- * @author    YOOtheme http://www.yootheme.com
- * @copyright Copyright (C) YOOtheme GmbH
- * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ * @author     brbaso@gmail.com
+ * @package    zooitems
+ * @subpackage Modules
+ * @license    http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
  */
 
 class mod_zooitemInstallerScript {
@@ -18,7 +18,12 @@ class mod_zooitemInstallerScript {
 
         //because the module doesn't come with ZOO Component package let's make sure that the ZOO component has been installed and enabled
         if (strtolower($type) == 'install') {
-           // check for zoo
+
+            // make sure ZOO exists
+            if (!JComponentHelper::getComponent('com_zoo', true)->enabled) {
+                 echo 'Please install ZOO Component first';
+                return;
+            }
         }
 
 
