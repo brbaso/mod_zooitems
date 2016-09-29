@@ -6,7 +6,7 @@
  * @license    http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
  */
 
-class mod_zooitemInstallerScript {
+class mod_zooitemsInstallerScript {
 
 	public function install($parent) {}
 
@@ -16,18 +16,27 @@ class mod_zooitemInstallerScript {
 
 	public function preflight($type, $parent) {
 
-        //because the module doesn't come with ZOO Component package let's make sure that the ZOO component has been installed and enabled
-        if (strtolower($type) == 'install') {
-
-            // make sure ZOO exists
-            if (!JComponentHelper::getComponent('com_zoo', true)->enabled) {
-                 echo 'Please install ZOO Component first';
-                return;
-            }
-        }
-
-
 		if (strtolower($type) == 'update') {
+
+            // make sure ZOO Component exists and enabled
+            try {
+                if (!JComponentHelper::getComponent('com_zoo', true)->enabled){
+                    throw new RuntimeException('Please install and enable ZOO Component first');
+                }
+            }
+            catch (RuntimeException $e) {
+
+                // Install failed, roll back changes
+                throw new RuntimeException(
+                    JText::sprintf(
+                        'JLIB_INSTALLER_ABORT_ROLLBACK',
+                        JText::_('JLIB_INSTALLER_' . $parent->getRoute()),
+                        $e->getMessage()
+                    ),
+                    $e->getCode(),
+                    $e
+                );
+            }
 
 			// load config
 			require_once(JPATH_ADMINISTRATOR.'/components/com_zoo/config.php');
@@ -38,9 +47,9 @@ class mod_zooitemInstallerScript {
 			foreach ($zoo->filesystem->readDirectoryFiles($parent->getParent()->getPath('source'), $parent->getParent()->getPath('source').'/', '/(positions\.(config|xml)|metadata\.xml)$/', true) as $file) {
 				JFile::delete($file);
 			}
-
 		}
 	}
 
 	public function postflight($type, $parent) {}
+
 }
