@@ -3,7 +3,7 @@ ZOO Items module - multiple choice
 
 #General Information#
 
-This module is based on the original mod_zooitem module which is standard part of ZOO Component package - [ZOO Component!](http://yootheme.com/zoo/)
+This module is based on the original ZOO Component **mod_zooitem** module which is standard part of ZOO Component package - [ZOO Component!](http://yootheme.com/zoo/)
 
 ## Functionality ##
 
