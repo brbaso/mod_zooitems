@@ -7,10 +7,10 @@ This module is based on the original mod_zooitem module which is standard part o
 
 ## Functionality ##
 
-To see how the original module functions please browse [ZOO Documentation!](http://yootheme.com/zoo/documentation/getting-started/set-up-zoo-item-module)
+To see how the original ZOO Component **mod_zooitem**  module functions please browse [ZOO Documentation!](http://yootheme.com/zoo/documentation/getting-started/set-up-zoo-item-module)
 
 ###multiple items###
-While the original module allows to choose one Item per module (or multiple items but from a single category or item type) the **mod_zooitems** module allows to choose multiple items from multiple categories or types.
+While the original ZOO Component **mod_zooitem** module allows to choose one Item per module (or multiple items but from a single category or item type) the **mod_zooitems** module allows to choose multiple items from multiple categories or types.
 
 ###themes and layouts###
 **mod_zooitems** uses three themes: *List*, *Uikit_grid* and *Uikit_grid_dynamic* with corresponding *Default*, *Uikit_grid* and *Uikit_grid_dynamic* lyouts.
