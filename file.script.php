@@ -16,6 +16,12 @@ class mod_zooitemInstallerScript {
 
 	public function preflight($type, $parent) {
 
+        //because the module doesn't come with ZOO Component package let's make sure that the ZOO component has been installed and enabled
+        if (strtolower($type) == 'install') {
+           // check for zoo
+        }
+
+
 		if (strtolower($type) == 'update') {
 
 			// load config
