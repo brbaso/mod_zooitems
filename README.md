@@ -22,7 +22,7 @@ While the original ZOO Component **mod_zooitem** module allows to choose one Ite
 ###installation###
  Install module as any other module using standard Joomla procedures.  - [Joomla Documentation -Installing an extension!](https://docs.joomla.org/Installing_an_extension)
  
- **Notice:** In order to install **mod_zooitems** module you **must** have ZOO Component installed and enabled first!
+ **Notice:** In order to install **mod_zooitems** module you **must** have ZOO Component installed and enabled first.
  
 ###module parameters### 
 
