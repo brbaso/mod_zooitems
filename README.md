@@ -28,7 +28,7 @@ While the original ZOO Component **mod_zooitem** module allows to choose one Ite
 
 Here is screen-shot of **mod_zooitems** module parameters with some explanations:
 
-![Module Parameters](https://brbaso.com/images/mod_zooitems_doc/module_parameters.jpg)
+![Module Parameters](http://brbaso.com/images/mod_zooitems_doc/module_parameters.jpg)
  
  
 more **TO DO**
