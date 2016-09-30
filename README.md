@@ -17,9 +17,21 @@ While the original ZOO Component **mod_zooitem** module allows to choose one Ite
  
  **List** theme renders **Default** layout and it is basic 'blog style' list of items.
  
- **Uikit_grid** and **Uikit_grid_dynamic** themes render **Uikit_grid** and **Uikit_grid_dynamic** layouts respectively and show items in a 'grid' style. These are dependent on [UIKit!](http://getuikit.com/index.html) front-end framework .
+ **Uikit_grid** and **Uikit_grid_dynamic** themes render **Uikit_grid** and **Uikit_grid_dynamic** layouts respectively and show items in a 'grid' style. These are dependent on [UIKit!](http://getuikit.com/index.html) front-end framework.
  
- more **TO DO**
+###installation###
+ Install module as any other module using standard Joomla procedures.  - [Joomla Documentation -Installing an extension!](https://docs.joomla.org/Installing_an_extension)
+ 
+ **Notice:** In order to install **mod_zooitems** module you **must** have ZOO Component installed and enabled first!
+ 
+###module parameters### 
+
+Here is screen-shot of **mod_zooitems** module parameters with some explanations:
+
+![Module Parameters](https://brbaso.com/images/mod_zooitems_doc/module_parameters.jpg)
+ 
+ 
+more **TO DO**
 
 
 
