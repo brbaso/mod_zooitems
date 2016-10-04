@@ -24,7 +24,7 @@ While the original ZOO Component **mod_zooitem** module allows to choose one Ite
  
  **Notice:** In order to install **mod_zooitems** module you **must** have ZOO Component installed and enabled first.
  
-###module parameters### 
+###module parameters
 Here is screen-shot of **mod_zooitems** module parameters with some explanations:
 
 ![Module Parameters](http://brbaso.com/images/mod_zooitems_doc/module_parameters.jpg)
