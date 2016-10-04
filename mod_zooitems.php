@@ -41,7 +41,6 @@ if ($application = $zoo->table->application->get($params->get('application', 0))
 	// if we have template overrides set the renderer
 	if(is_dir($mod_override_path)){
 		$renderer = $zoo->renderer->create('item')->addPath(array($mod_override_path));
-		
 	} else{
 		$renderer = $zoo->renderer->create('item')->addPath(array( dirname(__FILE__)));
 	}
