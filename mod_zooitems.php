@@ -34,7 +34,7 @@ if ($application = $zoo->table->application->get($params->get('application', 0))
 	$help = new ZooItemsHelper();
 	$items = $help -> getZooItems($params);	
 
-	// Get active template path from anywhere on Joomla: 
+	// Get active template path:
 	$app    = JFactory::getApplication();
 	$mod_override_path   = JPATH_ROOT.'/templates/'.$app->getTemplate().'/html/mod_zooitems';
 	
