@@ -32,9 +32,9 @@ Here is screen-shot of **mod_zooitems** module parameters with some explanations
 1.) ![Theme Dropdown](http://brbaso.com/images/mod_zooitems_doc/theme_dropdown.jpg)
 
 Three themes:
-List -  a basic 'blog type' list of items
-Uikit_grid - displays items in UIkit grid system
-Uikit_grid_dynamic - displays items in a UIkit dynamic grid system with category filters enabled
+*List* -  a basic 'blog type' list of items
+*Uikit_grid* - displays items in UIkit grid system
+*Uikit_grid_dynamic* - displays items in a UIkit dynamic grid system with category filters enabled
 
 2.) ![Layout Dropdown](http://brbaso.com/images/mod_zooitems_doc/layout_dropdown.jpg)
 
