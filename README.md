@@ -112,7 +112,11 @@ Module Class Suffix:
 
 Here you can add module class suffix for additional styling of your module.
 
- 
+###Demo screen shots:
+
+**UIKit dynamic grid with category filters**
+
+ ![UIKit dynamic grid](http://brbaso.com/images/mod_zooitems_doc/demo-screenshots-grid_dynamic.jpg)
  
 more **TO DO**
 
