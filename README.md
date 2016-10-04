@@ -29,7 +29,7 @@ Here is screen-shot of **mod_zooitems** module parameters with some explanations
 
 ![Module Parameters](http://brbaso.com/images/mod_zooitems_doc/module_parameters.jpg)
  
- 
+1.)  
 more **TO DO**
 
 
