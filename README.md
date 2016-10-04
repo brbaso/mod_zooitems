@@ -1,5 +1,5 @@
 # mod_zooitems
-ZOO Items module - multiple choice
+Joomla 3.x ZOO Items module - multiple choice
 
 #General Information#
 
