@@ -44,11 +44,11 @@ Themes:
 
 Layout:
 
-*Default* - default layout, it matches the *List* theme.
+*Default* - default layout, should be chosen together with the *List* theme from the Themes drop down.
 
-*Uikit_grid* - UIkit grid layout, matches *Uikit_grid* theme
+*Uikit_grid* - UIkit grid layout, should be chosen together with the *Uikit_grid* theme from the Themes drop down.
 
-*Uikit_grid_dynamic* - Uikit_grid_dynamic grid layout, matches *Uikit_grid_dynamic* theme
+*Uikit_grid_dynamic* - Uikit_grid_dynamic grid layout should be chosen together with the *Uikit_grid_dynamic* theme from the Themes drop down.
 
 
 4.) ![Media Dropdown](http://brbaso.com/images/mod_zooitems_doc/mediaposition_dropdown.jpg)
