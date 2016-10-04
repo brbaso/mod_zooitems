@@ -75,7 +75,7 @@ Different media positions choice. Additional *Cross - first left* and *Cross - f
 
 Application:
 
-Here you choose ZOO Application to show items. You need to have at least one Application defined in the ZOO Component.
+Here you choose ZOO Application to show items. You need to have at least one Application defined in the ZOO Component   - [Install ZOO](http://yootheme.com/zoo/documentation/getting-started/install-zoo) 
 
 
 6.)
