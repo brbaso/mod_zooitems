@@ -30,8 +30,11 @@ Here is screen-shot of **mod_zooitems** module parameters with some explanations
 ![Module Parameters](http://brbaso.com/images/mod_zooitems_doc/module_parameters.jpg)
  
 1.) ![Theme Dropdown](http://brbaso.com/images/mod_zooitems_doc/theme_dropdown.jpg)
+
 2.) ![Layout Dropdown](http://brbaso.com/images/mod_zooitems_doc/layout_dropdown.jpg)
+
 4.) ![Media Dropdown](http://brbaso.com/images/mod_zooitems_doc/mediaposition_dropdown.jpg)
+
 6.) ![Category - Type Dropdown](http://brbaso.com/images/mod_zooitems_doc/categorytypes_dropdown.jpg)
  
 more **TO DO**
