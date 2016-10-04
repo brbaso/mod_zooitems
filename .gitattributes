@@ -3,3 +3,4 @@ special-vendored-path/* linguist-vendored
 /assets/uikit/js/* linguist-vendored=true
 
 /.gitattributes export-ignore
+/readme.md export-ignore
