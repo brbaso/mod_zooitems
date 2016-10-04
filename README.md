@@ -123,7 +123,7 @@ Here you can add module class suffix for additional styling of your module.
  ![UIKit grid](http://brbaso.com/images/mod_zooitems_doc/demo-screenshots-grid-4columns.jpg)
  
  
-**List theme default layout - media position 'Cross - first left' **
+**List theme default layout, media position 'Cross - first left'**
 
  ![List default](http://brbaso.com/images/mod_zooitems_doc/demo-screenshots-default-cross-first-left.jpg)
  
