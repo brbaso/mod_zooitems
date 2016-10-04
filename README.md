@@ -31,7 +31,7 @@ Here is screen-shot of **mod_zooitems** module parameters with some explanations
  
 1.) ![Theme Dropdown](http://brbaso.com/images/mod_zooitems_doc/theme_dropdown.jpg)
 
-Three themes:
+Themes:
 
 *List* -  a basic 'blog type' list of items
 
@@ -41,6 +41,15 @@ Three themes:
 
 
 2.) ![Layout Dropdown](http://brbaso.com/images/mod_zooitems_doc/layout_dropdown.jpg)
+
+Layout:
+
+*Default* - default layout, it matches the *List* theme.
+
+*Uikit_grid* - UIkit grid layout, matches *Uikit_grid* theme
+
+*Uikit_grid_dynamic* - Uikit_grid_dynamic grid layout, matches *Uikit_grid_dynamic* theme
+
 
 4.) ![Media Dropdown](http://brbaso.com/images/mod_zooitems_doc/mediaposition_dropdown.jpg)
 
