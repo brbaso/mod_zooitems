@@ -20,6 +20,11 @@ While the original ZOO Component **mod_zooitem** module allows to choose one Ite
  **Uikit_grid** and **Uikit_grid_dynamic** themes render **Uikit_grid** and **Uikit_grid_dynamic** layouts respectively and show items in a 'grid' style. These are dependent on [UIKit!](http://getuikit.com/index.html) front-end framework.
  
 ###installation###
+
+Click on the Download ZIP button on this page (see image bellow) to download the module.
+
+![Download ZIP](http://brbaso.com/images/mod_zooitems_doc/download-module-git.jpg)
+
  Install module as any other module using standard Joomla procedures.  - [Joomla Documentation -Installing an extension!](https://docs.joomla.org/Installing_an_extension)
  
  **Notice:** In order to install **mod_zooitems** module you **must** have ZOO Component installed and enabled first.
