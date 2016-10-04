@@ -51,11 +51,18 @@ Layout:
 *Uikit_grid_dynamic* - Uikit_grid_dynamic grid layout should be chosen together with the *Uikit_grid_dynamic* theme from the Themes drop down.
 
 
+3.) Grid Columns:
+
+Number of grid columns to show items. It reflects to *Uikit_grid* and *Uikit_grid_dynamic* options above.
+
+
 4.) ![Media Dropdown](http://brbaso.com/images/mod_zooitems_doc/mediaposition_dropdown.jpg)
 
 Media Position:
 
 Different media positions choice. Additional *Cross - first left* and *Cross - first right* reflects on the *List theme* with *Default layout* by switching position of media from left to right and from right to left respectively, through the item list's rows.
+
+5.)
 
 6.) ![Category - Type Dropdown](http://brbaso.com/images/mod_zooitems_doc/categorytypes_dropdown.jpg)
 
