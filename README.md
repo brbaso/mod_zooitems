@@ -103,7 +103,7 @@ Here you choose **multiple** items, from Categories(or Types) chosen above, to s
 
 Item Order
 
-Here you can set Item ordering. This is fixed order functionality from the original *mod_zooitem* module. The **Ignore Items Priority Settings** option has been added. When checked, Item ordering ignores ZOO Component's Item Priority Settings. Otherwise, the Item Priority Settings will remain preserved.
+Here you can set Item ordering. This is order functionality from the original *mod_zooitem* module with some fixes applied. Also, the **Ignore Items Priority Settings** option has been added. When checked, Item ordering ignores ZOO Component's Item Priority Settings. Otherwise, the Item Priority Settings will remain preserved.
   
 10.)
 
