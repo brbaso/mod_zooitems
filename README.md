@@ -30,6 +30,7 @@ Here is screen-shot of **mod_zooitems** module parameters with some explanations
 ![Module Parameters](http://brbaso.com/images/mod_zooitems_doc/module_parameters.jpg)
  
 1.)
+
  ![Theme Dropdown](http://brbaso.com/images/mod_zooitems_doc/theme_dropdown.jpg)
 
 Themes:
@@ -39,7 +40,6 @@ Themes:
 *Uikit_grid* - displays items in UIkit grid system
 
 *Uikit_grid_dynamic* - displays items in a UIkit dynamic grid system with category filters enabled
-
 
 
 2.)
@@ -55,13 +55,11 @@ Layout:
 *Uikit_grid_dynamic* - Uikit_grid_dynamic grid layout should be chosen together with the *Uikit_grid_dynamic* theme from the Themes drop down.
 
 
-
 3.)
 
 Grid Columns:
 
-Number of grid columns to show items. It reflects to *Uikit_grid* and *Uikit_grid_dynamic* options above.
-
+Number of grid columns to show items. It reflects to *Uikit_grid* and *Uikit_grid_dynamic* options above. Default 3.
 
 
 4.)
@@ -73,10 +71,11 @@ Media Position:
 Different media positions choice. Additional *Cross - first left* and *Cross - first right* reflects on the *List theme* with *Default layout* by switching position of media from left to right and from right to left respectively, through the item list's rows.
 
 
-
-
 5.)
 
+Application:
+
+Here you choose ZOO Application to show items. You need to have at least one Application defined in the ZOO Component.
 
 
 6.)
@@ -86,6 +85,34 @@ Different media positions choice. Additional *Cross - first left* and *Cross - f
 Category / Type dropdown:
 
 This is where you choose whether to get items to show by item Categories or by item Types.
+ 
+
+7.) 
+
+Choose Categories or Types:
+
+Here you choose **multiple** Categories (or Types depending on choice in previous drop down) to show items.
+
+8.) 
+
+Choose Items:
+
+Here you choose **multiple** items, from Categories(or Types) chosen above, to show.
+
+9.)
+
+Item Order
+
+Here you can set Item ordering. This is fixed order functionality from the original *mod_zooitem* module. The **Ignore Items Priority Settings** option has been added. When checked, Item ordering ignores ZOO Component's Item Priority Settings. Otherwise, the Item Priority Settings will remain preserved.
+  
+10.)
+
+
+Module Class Suffix:
+
+Here you can add module class suffix for additional styling of your module.
+
+ 
  
 more **TO DO**
 
