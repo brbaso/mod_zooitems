@@ -29,7 +29,8 @@ Here is screen-shot of **mod_zooitems** module parameters with some explanations
 
 ![Module Parameters](http://brbaso.com/images/mod_zooitems_doc/module_parameters.jpg)
  
-1.) ![Theme Dropdown](http://brbaso.com/images/mod_zooitems_doc/theme_dropdown.jpg)
+1.)
+ ![Theme Dropdown](http://brbaso.com/images/mod_zooitems_doc/theme_dropdown.jpg)
 
 Themes:
 
@@ -41,7 +42,8 @@ Themes:
 
 
 
-2.) ![Layout Dropdown](http://brbaso.com/images/mod_zooitems_doc/layout_dropdown.jpg)
+2.)
+ ![Layout Dropdown](http://brbaso.com/images/mod_zooitems_doc/layout_dropdown.jpg)
 
 Layout:
 
@@ -53,13 +55,15 @@ Layout:
 
 
 
-3.) Grid Columns:
+3.)
+Grid Columns:
 
 Number of grid columns to show items. It reflects to *Uikit_grid* and *Uikit_grid_dynamic* options above.
 
 
 
-4.) ![Media Dropdown](http://brbaso.com/images/mod_zooitems_doc/mediaposition_dropdown.jpg)
+4.)
+ ![Media Dropdown](http://brbaso.com/images/mod_zooitems_doc/mediaposition_dropdown.jpg)
 
 Media Position:
 
@@ -73,7 +77,8 @@ Different media positions choice. Additional *Cross - first left* and *Cross - f
 
 
 
-6.) ![Category - Type Dropdown](http://brbaso.com/images/mod_zooitems_doc/categorytypes_dropdown.jpg)
+6.)
+ ![Category - Type Dropdown](http://brbaso.com/images/mod_zooitems_doc/categorytypes_dropdown.jpg)
 
 Category / Type dropdown:
 
