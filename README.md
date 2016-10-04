@@ -23,7 +23,7 @@ While the original ZOO Component **mod_zooitem** module allows to choose one Ite
 
 Click on the Download ZIP button on this page (see image bellow) to download the module.
 
-![Download ZIP](http://brbaso.com/images/mod_zooitems_doc/download-module-git.jpg)
+![Download ZIP](http://brbaso.com/images/mod_zooitems_doc/download-module-git-1.jpg)
 
  Install module as any other module using standard Joomla procedures.  - [Joomla Documentation -Installing an extension!](https://docs.joomla.org/Installing_an_extension)
  
