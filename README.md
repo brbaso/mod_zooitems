@@ -44,9 +44,9 @@ Themes:
 
 2.)
 
- ![Layout Dropdown](http://brbaso.com/images/mod_zooitems_doc/layout_dropdown.jpg)
-
 Layout:
+
+ ![Layout Dropdown](http://brbaso.com/images/mod_zooitems_doc/layout_dropdown.jpg)
 
 *Default* - default layout, should be chosen together with the *List* theme from the Themes drop down.
 
@@ -64,9 +64,9 @@ Number of grid columns to show items. It reflects to *Uikit_grid* and *Uikit_gri
 
 4.)
 
- ![Media Dropdown](http://brbaso.com/images/mod_zooitems_doc/mediaposition_dropdown.jpg)
-
 Media Position:
+
+ ![Media Dropdown](http://brbaso.com/images/mod_zooitems_doc/mediaposition_dropdown.jpg)
 
 Different media positions choice. Additional *Cross - first left* and *Cross - first right* reflects on the *List theme* with *Default layout* by switching position of media from left to right and from right to left respectively, through the item list's rows.
 
@@ -80,9 +80,9 @@ Here you choose ZOO Application to show items. You need to have at least one App
 
 6.)
 
- ![Category - Type Dropdown](http://brbaso.com/images/mod_zooitems_doc/categorytypes_dropdown.jpg)
-
 Category / Type dropdown:
+
+ ![Category - Type Dropdown](http://brbaso.com/images/mod_zooitems_doc/categorytypes_dropdown.jpg)
 
 This is where you choose whether to get items to show by item Categories or by item Types.
  
