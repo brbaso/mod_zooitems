@@ -43,6 +43,7 @@ Themes:
 
 
 2.)
+
  ![Layout Dropdown](http://brbaso.com/images/mod_zooitems_doc/layout_dropdown.jpg)
 
 Layout:
@@ -56,6 +57,7 @@ Layout:
 
 
 3.)
+
 Grid Columns:
 
 Number of grid columns to show items. It reflects to *Uikit_grid* and *Uikit_grid_dynamic* options above.
@@ -63,6 +65,7 @@ Number of grid columns to show items. It reflects to *Uikit_grid* and *Uikit_gri
 
 
 4.)
+
  ![Media Dropdown](http://brbaso.com/images/mod_zooitems_doc/mediaposition_dropdown.jpg)
 
 Media Position:
@@ -76,8 +79,8 @@ Different media positions choice. Additional *Cross - first left* and *Cross - f
 
 
 
-
 6.)
+
  ![Category - Type Dropdown](http://brbaso.com/images/mod_zooitems_doc/categorytypes_dropdown.jpg)
 
 Category / Type dropdown:
