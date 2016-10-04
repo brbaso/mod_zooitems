@@ -1,2 +1,2 @@
 special-vendored-path/* linguist-vendored
-/assets/uikit linguist-vendored=true
+(^|/)uikit\.(js|css|less|scss|styl)$ linguist-vendored=true
