@@ -1,1 +1,2 @@
+special-vendored-path/* linguist-vendored
 /assets/uikit linguist-vendored=true
