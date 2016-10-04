@@ -55,9 +55,13 @@ Layout:
 
 Media Position:
 
-Different media positions choice. Additional *Cross - first left* and *Cross - first right* represents List theme with Default layout switching position of media from left to right and from right to left respectively, through the item list's rows.
+Different media positions choice. Additional *Cross - first left* and *Cross - first right* reflects on the *List theme* with *Default layout* by switching position of media from left to right and from right to left respectively, through the item list's rows.
 
 6.) ![Category - Type Dropdown](http://brbaso.com/images/mod_zooitems_doc/categorytypes_dropdown.jpg)
+
+Category / Type dropdown:
+
+This is where you choose whether to get items to show by item Categories or by item Types.
  
 more **TO DO**
 
